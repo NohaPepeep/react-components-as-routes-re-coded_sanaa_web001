@@ -36,7 +36,7 @@ const Login = () => {
 
 ReactDOM.render(
   <Router><div>
-    <Route path="/" component={Home} />
+    <Route path="/" exact  component={Home} />
     <Route exact path="/about" component={About} />
     <Route exact path="/login" component={Login} />
     </div>
