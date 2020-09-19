@@ -9,6 +9,8 @@ const link = {
   textDecoration: 'none',
   color: 'white',
 }
+
+
 const Home = () => {
   return (
     <div>
